@@ -1,0 +1,144 @@
+.productdisplay {
+  display: flex;
+  margin: 40px 80px;
+  gap: 50px;
+}
+
+/* LEFT SIDE */
+
+.productdisplay-left {
+  display: flex;
+  gap: 20px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productdisplay-img-list img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.productdisplay-img img {
+  width: 450px;
+  height: 570px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* RIGHT SIDE */
+
+.productdisplay-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.productdisplay-right h1 {
+  font-size: 40px;
+  color: #222;
+}
+
+/* RATING */
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.productdisplay-right-star p {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+/* PRICES */
+
+.productdisplay-right-prices {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.productdisplay-right-price-old {
+  color: #818181;
+  text-decoration: line-through;
+  font-size: 24px;
+}
+
+.productdisplay-right-price-new {
+  color: #ff4141;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* DESCRIPTION */
+
+.productdisplay-right-description {
+  color: #444;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* SIZE SECTION */
+
+.productdisplay-right-size h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.productdisplay-right-size div {
+  display: flex;
+  gap: 15px;
+}
+
+.productdisplay-right-size div div {
+  padding: 12px 22px;
+  border: 1px solid #d0d0d0;
+  background: #f8f8f8;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.productdisplay-right-size div div:hover {
+  background: #eaeaea;
+}
+
+/* BUTTON */
+
+.productdisplay-right button {
+  width: 220px;
+  padding: 16px 20px;
+  border: none;
+  background: #ff4141;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.productdisplay-right button:hover {
+  background: #e63939;
+}
+
+/* CATEGORY */
+
+.productdisplay-right-category {
+  font-size: 16px;
+  color: #555;
+}
+
+.productdisplay-right-category span:first-child {
+  font-weight: 600;
+  color: #222;
+}

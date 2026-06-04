@@ -1,0 +1,48 @@
+.Hero{
+    height: 100vh;
+    background: linear-gradient(180deg,pink,lightblue 80%);
+    display: flex;
+}
+.Hero-Left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left:80px;
+}
+.Hero-Left h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Hero-Left p{
+    color: rgb(23,54,77);
+    font-size:60px;
+    font-weight:700;
+}
+.Hero-Hand-Icon{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.Hero-Latest-Btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width:250px;
+    height:50px;
+    border-radius:75px;
+    margin-top:30px;
+    color:white;
+    background:red;
+    font-size:22px;
+    font-weight:500;
+}
+.Hero-Right{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
