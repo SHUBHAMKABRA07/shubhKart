@@ -1,5 +1,5 @@
 import React from 'react'
-import "./productdisplay.css"
+import "./ProductDisplay.css"
 import star from "../../assets/star.jpg"
 import half_star from "../../assets/half_star.jpg"
 import { ShopContext } from '../../Context/ShopContext'
